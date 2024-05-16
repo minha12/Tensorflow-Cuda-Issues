@@ -2,6 +2,8 @@
 
 Check compatible list here: (https://www.tensorflow.org/install/source#gpu)
 
+Archive of Nvidia Toolkit: (https://developer.nvidia.com/cuda-toolkit-archive)
+
 Nvidia drivers for Ubuntu 18.04
 ```
 ubuntu-drivers devices
