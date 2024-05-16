@@ -235,7 +235,7 @@ These steps should help you clean up any old NVIDIA driver installations and set
 
 
 ## Issue with cuDNN
-To install cuDNN 8 on Ubuntu 18.04, you should choose the following two packages:
+To install cuDNN 8 on Ubuntu 18.04, you should choose the following two packages (https://developer.nvidia.com/rdp/cudnn-archive):
 
 1. **cuDNN Runtime Library for Ubuntu18.04 x86_64 (Deb)**
 2. **cuDNN Developer Library for Ubuntu18.04 x86_64 (Deb)**
