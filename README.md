@@ -2,6 +2,30 @@
 
 Check compatible list here: (https://www.tensorflow.org/install/source#gpu)
 
+Nvidia drivers for Ubuntu 18.04
+```
+ubuntu-drivers devices
+WARNING:root:_pkg_get_support nvidia-driver-525-server: package has invalid Support PBheader, cannot determine support level
+WARNING:root:_pkg_get_support nvidia-driver-545: package has invalid Support PBheader, cannot determine support level
+WARNING:root:_pkg_get_support nvidia-driver-535: package has invalid Support PBheader, cannot determine support level
+WARNING:root:_pkg_get_support nvidia-driver-515-server: package has invalid Support PBheader, cannot determine support level
+WARNING:root:_pkg_get_support nvidia-driver-525: package has invalid Support PBheader, cannot determine support level
+== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+modalias : pci:v000010DEd00001E07sv00001043sd0000866Abc03sc00i00
+vendor   : NVIDIA Corporation
+driver   : nvidia-driver-450-server - distro non-free
+driver   : nvidia-driver-525-server - distro non-free
+driver   : nvidia-driver-470 - third-party non-free
+driver   : nvidia-driver-545 - third-party non-free recommended
+driver   : nvidia-driver-470-server - distro non-free
+driver   : nvidia-driver-418-server - distro non-free
+driver   : nvidia-driver-535 - third-party non-free
+driver   : nvidia-driver-450 - third-party non-free
+driver   : nvidia-driver-515-server - distro non-free
+driver   : nvidia-driver-525 - third-party non-free
+driver   : xserver-xorg-video-nouveau - distro free builtin
+
+```
 ## Recommend for Ubuntu 18.04: 
 
 - Nvidia driver: 470
